@@ -22,7 +22,7 @@ img.navbar-logo {
 }
 
 div.game-board {
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 div.bot-margin {
@@ -40,4 +40,6 @@ button {
     font-size: 72px;
     color: #f2f56b;
     text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
 }
