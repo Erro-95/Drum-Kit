@@ -37,7 +37,7 @@ button {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.33) 0%, rgba(255, 255, 255, 0) 100%);
     border: 4px solid #5E1B1B;
     font-weight: 500;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #f2f56b;
     text-align: center;
     padding: 0 auto;
@@ -45,7 +45,20 @@ button {
     transition-duration: 0.4s;
 }
 
-button:hover {
-    background-color: white;
-    color: black;
+button:focus,
+button:active {
+    outline: none;
+}
+
+@media (min-width: 1024px) {
+    button:hover {
+        background-color: white;
+        color: black;
+    }
+
+    button {
+        width: 150px;
+        height: 142px;
+        font-size: 4rem;
+    }
 }
