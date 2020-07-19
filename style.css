@@ -71,7 +71,7 @@ button:active {
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 16000px) {
 
     div.game-board {
         margin: 15% 0;
