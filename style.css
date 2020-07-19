@@ -69,4 +69,8 @@ button:active {
         background-color: white;
         color: black;
     }
+
+    div.game-board {
+        margin: 15% 0;
+    }
 }
