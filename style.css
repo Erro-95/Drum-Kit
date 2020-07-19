@@ -59,7 +59,7 @@ button:active {
 
 .footer-icon {
     padding: 5px;
-    font-size: .8rem;
+    font-size: 1.2rem;
 }
 
 @media (min-width: 1024px) {
@@ -73,6 +73,10 @@ button:active {
     .transitionalBtns:hover {
         background-color: white;
         color: black;
+    }
+
+    .footer-icon {
+        font-size: 1.5rem;
     }
 }
 
